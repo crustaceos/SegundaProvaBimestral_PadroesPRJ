@@ -53,7 +53,7 @@ class AdaptadorProcessadorLegado implements ProcessadorTransacoes {
 
         }
 
-        return "Transação aprovada! Código: " + resposta.get("codigoAutorizacao")
+        return "Transação aprovada. Código: " + resposta.get("codigoAutorizacao")
 
                 + ", Valor: " + resposta.get("valorProcessado")
 
