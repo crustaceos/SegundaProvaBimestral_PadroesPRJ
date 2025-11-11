@@ -8,4 +8,10 @@ O usuário pode apenas mudar a calculadora que deseja utilizar na main.
 Questão 2 (Adapter):
 
 Foi o escolhido o método Adapter por conta do fato da necessidade de mudança entre sistemas diferentes, um legado, e outro atualizado. 
-Onde ambas as interfaces possuem regras diferentes, de forma que o código, pode converter as requisições do novo sistema para o legado.   
+Onde ambas as interfaces possuem regras diferentes, de forma que o código, pode converter as requisições do novo sistema para o legado.  
+
+Questão 3 (State):
+
+Foi o escolhido o método State, por conta da necessidade de uma mudança dinâmica de estado da usina, de acordo com as condições atuais.
+Por exemplo, caso a temperatura aumente para mais de 300 graus, o estado deve ser alterado de uma operação normal, para alerta amarelo. Tudo isso ocorrendo em tempo de execução do código.
+Cada estado possui suas regras especificas, e caso não sejam satisfeitas, o estado irá ser alterado.
