@@ -17,6 +17,7 @@ public class Main {
         usina.setSistemaResfriamentoOk(false);
         usina.executar();
 
+        //Foi comentado o modo manutenção para teste de falha total na usina
         //usina.ativarModoManutencao();
         usina.executar();
 
